@@ -6,7 +6,7 @@ https://openseespydoc.readthedocs.io/en/latest/#
 
 **Proposed plan for the coming weeks:**
 
-Week 1: Setup and intro to python  
+Week 1: Setup and intro to python (08-06-2023)  
 Week 2: A simple Concrete Frame  
 Week 3: Object Orientated programming (OOP) & advancing the concepts of Week 2  
 Week 4: More Python stuff (to be confirmed)  
