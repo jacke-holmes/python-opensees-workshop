@@ -1,6 +1,5 @@
 print('hello world')
 
-
 i: int = 0
 c: str = 'h'
 
