@@ -1,7 +1,7 @@
 print('hello world')
 
 
-i: str = 0
+i: int = 0
 c: str = 'h'
 string: str = "I am a string"
 
@@ -10,7 +10,7 @@ my_list: list[int] = [1, 2, 3, 4] # can be mutated
 
 my_dict: dict[str, int] = {
     "key1": 1,
-    "key2": 2
+    "key2": 5
 }
 
 print(i)
