@@ -2,9 +2,10 @@ print('hello world')
 
 print('i know :)')
 
+
 my_fruits: dict[str, int] = {
     "apples": 25,
-    "bananas": 31
+    "bananas": 5
 }
 
 def func1(favo: int):
