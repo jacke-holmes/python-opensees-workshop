@@ -1,6 +1,6 @@
 print('hello world')
-i = int
-c = str
+i: int = 3
+c: str 
 string = str
 
 
@@ -28,7 +28,7 @@ print(my_list[1])
 def func1():
     print ('I am function 1 - big woops')
 
-def func2(a: int, b: string):
+def func2(a: int, b: str):
     print(a, b)
 
 func1()
