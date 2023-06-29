@@ -10,4 +10,4 @@ class Node():
         self.z: float = node_coords[2]
     
     def __repr__(self) -> str:
-        return f"Node {self.node_id}"
+        return f"Node ({self.x, self.y, self.z})"
