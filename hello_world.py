@@ -1,3 +1,6 @@
+import numpy as np
+from typing import Optional, Any
+
 print('hello world')
 
 l: int = 1
@@ -7,6 +10,13 @@ d: str = c + i
 print('d =', d)
 
 string = 'I am a string'
+
+#j: int|None
+#if j is not None:
+#    j+1
+
+#k: Optional[int|float]
+
 
 my_tuple = ("a", "b", "c") # a tuple cannot be mutated after it is created
 my_list: list[int] = [1, 2, 3, 4] # a list can be mutated after it is created
@@ -36,3 +46,20 @@ def func2(a: int, b: str):
 
 func1()
 func2(b='hello', a=99) #the items do not necc have to be labeled but when they are labeled they can be put in the other way around and still come out as a b
+
+
+
+class Mouse():
+    
+
+    
+    def lift_click(self):
+        print("left clicking")
+
+    @staticmethod
+    def right_click():
+        print("right clicking")
+
+amys_mouse = Mouse()
+
+print(0)
