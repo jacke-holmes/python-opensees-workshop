@@ -1,8 +1,6 @@
 # python-opensees-workshop
 repo to hold python and openseespy learning material
 
-https://openseespydoc.readthedocs.io/en/latest/#
-
 
 **Proposed plan for the coming weeks:**
 
@@ -15,4 +13,10 @@ Week 3: Object Orientated programming (OOP) & advancing the concepts of Week 2 -
 Week 4: Add Bar class and introduce Inheritance    
 Week 5: Flesh out the remainder of the Frame model and introduce unit testing (if we have time)  
 Week 6: Install "xlwings" and show a connection between excel and python (https://www.xlwings.org/)  
-Week 7: Intro to OpenSees API and connecting with Python  
+Week 7: Intro to OpenSees API and connecting with Python (https://openseespydoc.readthedocs.io/en/latest/#)  
+
+
+
+## Inheritance:
+
+![image](https://github.com/jacke-holmes/python-opensees-workshop/assets/100411377/db144d73-4e09-45a3-b394-6bcab6eba3f3)
