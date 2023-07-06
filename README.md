@@ -19,5 +19,6 @@ Week 7: Intro to OpenSees API and connecting with Python (https://openseespydoc.
 
 ## Inheritance:
 
-![image](https://github.com/jacke-holmes/python-opensees-workshop/assets/100411377/bd6572a1-6a2d-4734-b882-5927feeed697)
+![image](https://github.com/jacke-holmes/python-opensees-workshop/assets/100411377/d5fa11f5-10a5-4d98-bbac-39f680b71602)
+
 
