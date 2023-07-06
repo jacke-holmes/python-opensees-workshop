@@ -1,4 +1,9 @@
-def print_message():
-    print("hello")
+# example of function with one argument (msg) or type "string"
+def print_message(msg: str):
+    print(msg)
 
-print_message()
+i: int = 5
+f: float = 2.3
+s: str = "string"
+
+print_message(s)
