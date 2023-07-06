@@ -12,6 +12,7 @@ https://openseespydoc.readthedocs.io/en/latest/#
 Week 1: Setup and intro to python (08-06-2023)  
 Week 2: Concrete Frame definition and intro to classes  
 Week 3: Object Orientated programming (OOP) & advancing the concepts of Week 2 - more discussion on class structure  
-Week 4: Flesh out the remainder of the Frame model and introduce unit testing (if we have time)  
-Week 5: More Python stuff (to be confirmed)  
-Week 6: Intro to OpenSees API and connecting with Python  
+Week 4: Add Bar class and introduce Inheritance    
+Week 5: Flesh out the remainder of the Frame model and introduce unit testing (if we have time)  
+Week 6: Install "xlwings" and show a connection between excel and python (https://www.xlwings.org/)  
+Week 7: Intro to OpenSees API and connecting with Python  
