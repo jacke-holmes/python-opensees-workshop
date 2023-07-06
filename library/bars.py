@@ -1,5 +1,5 @@
-from base_classes.thing import Thing
-from nodes import Node
+from library.base_classes.thing import Thing
+from library.nodes import Node
 
 
 class Bar(Thing):

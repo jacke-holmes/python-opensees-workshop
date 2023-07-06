@@ -2,9 +2,9 @@
 from typing import Any
 
 # python import
-from model import Model
-from nodes import Node
-from bars import Bar
+from library.model import Model
+from library.nodes import Node
+from library.bars import Bar
 
 
 model: Model = Model("2DFrame")  # instantiate the class
@@ -19,12 +19,6 @@ model.nodes[4] = Node(4, [4., 0., 0.])
 model.bars[1] = Bar(1, model.nodes[1], model.nodes[2]) # [1, 2] column 1
 model.bars[2] = Bar(2, model.nodes[4], model.nodes[3]) # [4, 3] column 2
 model.bars[3] = Bar(3, model.nodes[2], model.nodes[3]) # [2, 3] beam 1
-
-
-print(
-    "node id list for bar 2 = ",
-    model.bars[2].get_node_ids_as_list()
-)
 
 my_node_coords = model.nodes[4].get_node_coords_as_list()
 print("my_nodes coords: ", my_node_coords)

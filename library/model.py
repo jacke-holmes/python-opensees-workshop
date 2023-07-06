@@ -1,5 +1,5 @@
-from nodes import Node
-from bars import Bar
+from library.nodes import Node
+from library.bars import Bar
 
 class Model():
 

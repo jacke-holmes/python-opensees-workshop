@@ -1,4 +1,4 @@
-from base_classes.thing import Thing
+from library.base_classes.thing import Thing
 
 
 class Node(Thing):
