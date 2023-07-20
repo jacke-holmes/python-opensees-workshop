@@ -1,9 +1,10 @@
 from library.nodes import Node
 from library.bars import Bar
 
+
 class Model():
 
-    # constructor
+    # constructor - Reiner
     def __init__(self, model_name: str):
         self.name = model_name
 
