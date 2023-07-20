@@ -23,4 +23,7 @@ model.bars[3] = Bar(3, model.nodes[2], model.nodes[3]) # [2, 3] beam 1
 my_node_coords = model.nodes[4].get_node_coords_as_list()
 print("my_nodes coords: ", my_node_coords)
 
+
+model.bars[1].node_end_i.y
+
 print('model: ', model)
