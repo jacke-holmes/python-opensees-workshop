@@ -1,4 +1,5 @@
-from nodes import Node
+from library.nodes import Node
+from library.bars import Bar
 
 class Model():
 
@@ -7,7 +8,7 @@ class Model():
         self.name = model_name
 
         self.nodes: dict[int, Node] = dict()
-        self.bars: dict[int, list[int]] = dict()
+        self.bars: dict[int, Bar] = dict()
 
     def print_name(self):
         print(self.name)
