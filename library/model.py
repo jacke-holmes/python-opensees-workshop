@@ -1,3 +1,5 @@
+from typing import Any
+
 from library.nodes import Node
 from library.bars import Bar
 
@@ -24,6 +26,11 @@ class Model():
     @property
     def p_bar_count(self):
         return len(self.bars)
+
+    def add_nodes_from_array(self, node_data: list[list[Any]]):
+        for row in node_data:
+            node_id = row[0]
+            self.nodes[node_id] = Node(node_id, row[2:])
 
 
 
